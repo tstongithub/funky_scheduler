@@ -1,0 +1,42 @@
+rank_k: 1.0
+penalty_k: 1.0
+length_penalties: [0, 0, 0, 5, 20, 80, 250, 1000]
+window_penalties: [0, 5, 25, 125, 625, 3000]
+students:
+  - name: Антон
+    topics: ["матан"]
+    groups: [0]
+    director: Адольф
+  - name: Боря
+    topics: ["матан", "ГА"]
+    groups: [0, 1]
+    director: Вальдемар
+  - name: Вова
+    topics: []
+    groups: [1]
+    director: Ефим
+professors:
+  - name: Адольф
+    topics: ["матан", "ГА"]
+    rank: 100
+    cannot_groups: []
+  - name: Борис
+    topics: ["матан"]
+    rank: 40
+    cannot_groups: [1]
+  - name: Вальдемар
+    topics: ["матан", "ГА"]
+    rank: 35
+    cannot_groups: []
+  - name: Глеб
+    topics: ["матан", "ГА"]
+    rank: 30
+    cannot_groups: [0]
+  - name: Давид
+    topics: ["матан"]
+    rank: 25
+    cannot_groups: []
+  - name: Ефим
+    topics: ["матан", "ГА"]
+    rank: 20
+    cannot_groups: [1]
