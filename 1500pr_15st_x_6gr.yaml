@@ -1,0 +1,11805 @@
+---
+n_threads: 4
+mutate_pct: 30
+print_threshold: 0.99
+revert_threshold: 0.7
+rank_k: 1.0
+penalty_k: 1.0
+length_penalties:
+- 0
+- 0
+- 0
+- 5
+- 20
+- 80
+- 250
+- 1000
+window_penalties:
+- 0
+- 5
+- 25
+- 125
+- 625
+- 3000
+students:
+- name: student_0_0
+  topics: []
+  group: 0
+  director: professor_1233
+- name: student_0_1
+  topics: []
+  group: 0
+  director: professor_552
+- name: student_0_2
+  topics:
+  - topic3
+  group: 0
+  director: professor_1436
+- name: student_0_3
+  topics:
+  - topic3
+  group: 0
+  director: professor_140
+- name: student_0_4
+  topics: []
+  group: 0
+  director: professor_771
+- name: student_0_5
+  topics:
+  - topic3
+  group: 0
+  director: professor_661
+- name: student_0_6
+  topics:
+  - topic2
+  - topic3
+  group: 0
+  director: professor_1387
+- name: student_0_7
+  topics:
+  - topic2
+  group: 0
+  director: professor_959
+- name: student_0_8
+  topics: []
+  group: 0
+  director: professor_156
+- name: student_0_9
+  topics:
+  - topic1
+  group: 0
+  director: professor_1494
+- name: student_0_10
+  topics: []
+  group: 0
+  director: professor_1230
+- name: student_0_11
+  topics: []
+  group: 0
+  director: professor_652
+- name: student_0_12
+  topics: []
+  group: 0
+  director: professor_429
+- name: student_0_13
+  topics:
+  - topic3
+  group: 0
+  director: professor_963
+- name: student_0_14
+  topics: []
+  group: 0
+  director: professor_597
+- name: student_1_0
+  topics: []
+  group: 1
+  director: professor_560
+- name: student_1_1
+  topics:
+  - topic1
+  group: 1
+  director: professor_495
+- name: student_1_2
+  topics: []
+  group: 1
+  director: professor_943
+- name: student_1_3
+  topics:
+  - topic2
+  - topic3
+  group: 1
+  director: professor_359
+- name: student_1_4
+  topics: []
+  group: 1
+  director: professor_1109
+- name: student_1_5
+  topics: []
+  group: 1
+  director: professor_564
+- name: student_1_6
+  topics: []
+  group: 1
+  director: professor_107
+- name: student_1_7
+  topics: []
+  group: 1
+  director: professor_256
+- name: student_1_8
+  topics:
+  - topic3
+  group: 1
+  director: professor_6
+- name: student_1_9
+  topics:
+  - topic1
+  group: 1
+  director: professor_136
+- name: student_1_10
+  topics:
+  - topic3
+  group: 1
+  director: professor_1170
+- name: student_1_11
+  topics: []
+  group: 1
+  director: professor_1047
+- name: student_1_12
+  topics:
+  - topic2
+  group: 1
+  director: professor_915
+- name: student_1_13
+  topics:
+  - topic1
+  - topic3
+  group: 1
+  director: professor_1161
+- name: student_1_14
+  topics:
+  - topic2
+  group: 1
+  director: professor_562
+- name: student_2_0
+  topics: []
+  group: 2
+  director: professor_1427
+- name: student_2_1
+  topics:
+  - topic1
+  group: 2
+  director: professor_1132
+- name: student_2_2
+  topics:
+  - topic1
+  group: 2
+  director: professor_757
+- name: student_2_3
+  topics: []
+  group: 2
+  director: professor_870
+- name: student_2_4
+  topics:
+  - topic1
+  group: 2
+  director: professor_1033
+- name: student_2_5
+  topics:
+  - topic3
+  group: 2
+  director: professor_309
+- name: student_2_6
+  topics: []
+  group: 2
+  director: professor_1045
+- name: student_2_7
+  topics: []
+  group: 2
+  director: professor_68
+- name: student_2_8
+  topics: []
+  group: 2
+  director: professor_1015
+- name: student_2_9
+  topics: []
+  group: 2
+  director: professor_909
+- name: student_2_10
+  topics: []
+  group: 2
+  director: professor_862
+- name: student_2_11
+  topics: []
+  group: 2
+  director: professor_171
+- name: student_2_12
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  group: 2
+  director: professor_779
+- name: student_2_13
+  topics: []
+  group: 2
+  director: professor_483
+- name: student_2_14
+  topics: []
+  group: 2
+  director: professor_1185
+- name: student_3_0
+  topics: []
+  group: 3
+  director: professor_1452
+- name: student_3_1
+  topics:
+  - topic1
+  group: 3
+  director: professor_69
+- name: student_3_2
+  topics:
+  - topic2
+  group: 3
+  director: professor_755
+- name: student_3_3
+  topics: []
+  group: 3
+  director: professor_1080
+- name: student_3_4
+  topics: []
+  group: 3
+  director: professor_1029
+- name: student_3_5
+  topics:
+  - topic2
+  group: 3
+  director: professor_1278
+- name: student_3_6
+  topics:
+  - topic1
+  group: 3
+  director: professor_597
+- name: student_3_7
+  topics:
+  - topic1
+  group: 3
+  director: professor_84
+- name: student_3_8
+  topics: []
+  group: 3
+  director: professor_1230
+- name: student_3_9
+  topics:
+  - topic3
+  group: 3
+  director: professor_1053
+- name: student_3_10
+  topics: []
+  group: 3
+  director: professor_1136
+- name: student_3_11
+  topics: []
+  group: 3
+  director: professor_368
+- name: student_3_12
+  topics:
+  - topic3
+  group: 3
+  director: professor_131
+- name: student_3_13
+  topics:
+  - topic2
+  group: 3
+  director: professor_801
+- name: student_3_14
+  topics:
+  - topic2
+  group: 3
+  director: professor_1387
+- name: student_4_0
+  topics: []
+  group: 4
+  director: professor_938
+- name: student_4_1
+  topics: []
+  group: 4
+  director: professor_917
+- name: student_4_2
+  topics: []
+  group: 4
+  director: professor_550
+- name: student_4_3
+  topics: []
+  group: 4
+  director: professor_186
+- name: student_4_4
+  topics:
+  - topic3
+  group: 4
+  director: professor_516
+- name: student_4_5
+  topics: []
+  group: 4
+  director: professor_316
+- name: student_4_6
+  topics: []
+  group: 4
+  director: professor_1285
+- name: student_4_7
+  topics: []
+  group: 4
+  director: professor_1160
+- name: student_4_8
+  topics:
+  - topic3
+  group: 4
+  director: professor_357
+- name: student_4_9
+  topics: []
+  group: 4
+  director: professor_826
+- name: student_4_10
+  topics: []
+  group: 4
+  director: professor_997
+- name: student_4_11
+  topics: []
+  group: 4
+  director: professor_214
+- name: student_4_12
+  topics: []
+  group: 4
+  director: professor_1113
+- name: student_4_13
+  topics: []
+  group: 4
+  director: professor_1381
+- name: student_4_14
+  topics: []
+  group: 4
+  director: professor_927
+- name: student_5_0
+  topics:
+  - topic2
+  group: 5
+  director: professor_59
+- name: student_5_1
+  topics: []
+  group: 5
+  director: professor_546
+- name: student_5_2
+  topics:
+  - topic3
+  group: 5
+  director: professor_116
+- name: student_5_3
+  topics: []
+  group: 5
+  director: professor_1060
+- name: student_5_4
+  topics: []
+  group: 5
+  director: professor_24
+- name: student_5_5
+  topics:
+  - topic1
+  group: 5
+  director: professor_540
+- name: student_5_6
+  topics:
+  - topic2
+  group: 5
+  director: professor_849
+- name: student_5_7
+  topics:
+  - topic3
+  group: 5
+  director: professor_375
+- name: student_5_8
+  topics:
+  - topic2
+  group: 5
+  director: professor_1400
+- name: student_5_9
+  topics:
+  - topic3
+  group: 5
+  director: professor_159
+- name: student_5_10
+  topics:
+  - topic1
+  group: 5
+  director: professor_113
+- name: student_5_11
+  topics: []
+  group: 5
+  director: professor_465
+- name: student_5_12
+  topics: []
+  group: 5
+  director: professor_1074
+- name: student_5_13
+  topics: []
+  group: 5
+  director: professor_771
+- name: student_5_14
+  topics: []
+  group: 5
+  director: professor_750
+professors:
+- name: professor_0
+  rank: 97
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 4
+  - 5
+- name: professor_1
+  rank: 63
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_2
+  rank: 45
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_3
+  rank: 71
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_4
+  rank: 43
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+  - 5
+- name: professor_5
+  rank: 103
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_6
+  rank: 70
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_7
+  rank: 146
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_8
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_9
+  rank: 122
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_10
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_11
+  rank: 149
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+  - 6
+- name: professor_12
+  rank: 100
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_13
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_14
+  rank: 115
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+- name: professor_15
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_16
+  rank: 109
+  topics:
+  - topic1
+  cannot_groups:
+  - 2
+- name: professor_17
+  rank: 80
+  topics:
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_18
+  rank: 132
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 5
+- name: professor_19
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_20
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_21
+  rank: 28
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_22
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_23
+  rank: 25
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_24
+  rank: 89
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_25
+  rank: 90
+  topics: []
+  cannot_groups:
+  - 1
+  - 3
+  - 6
+- name: professor_26
+  rank: 152
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_27
+  rank: 168
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+  - 6
+- name: professor_28
+  rank: 92
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_29
+  rank: 197
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_30
+  rank: 162
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_31
+  rank: 134
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_32
+  rank: 199
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_33
+  rank: 84
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_34
+  rank: 27
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_35
+  rank: 12
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_36
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_37
+  rank: 182
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_38
+  rank: 180
+  topics:
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_39
+  rank: 164
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_40
+  rank: 67
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 4
+- name: professor_41
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_42
+  rank: 38
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_43
+  rank: 123
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_44
+  rank: 87
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_45
+  rank: 28
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_46
+  rank: 119
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_47
+  rank: 159
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_48
+  rank: 57
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_49
+  rank: 160
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_50
+  rank: 38
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_51
+  rank: 199
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_52
+  rank: 26
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+  - 6
+- name: professor_53
+  rank: 182
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_54
+  rank: 12
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 6
+- name: professor_55
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_56
+  rank: 28
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_57
+  rank: 112
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_58
+  rank: 139
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_59
+  rank: 31
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_60
+  rank: 5
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 4
+  - 5
+- name: professor_61
+  rank: 59
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_62
+  rank: 54
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_63
+  rank: 42
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_64
+  rank: 186
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_65
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_66
+  rank: 33
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_67
+  rank: 54
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_68
+  rank: 1
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_69
+  rank: 26
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_70
+  rank: 19
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_71
+  rank: 131
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_72
+  rank: 126
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_73
+  rank: 73
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_74
+  rank: 62
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_75
+  rank: 168
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+  - 4
+- name: professor_76
+  rank: 74
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_77
+  rank: 61
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_78
+  rank: 180
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_79
+  rank: 79
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_80
+  rank: 71
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+- name: professor_81
+  rank: 134
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_82
+  rank: 41
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_83
+  rank: 85
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_84
+  rank: 100
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_85
+  rank: 141
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_86
+  rank: 110
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_87
+  rank: 106
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_88
+  rank: 143
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_89
+  rank: 120
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_90
+  rank: 157
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_91
+  rank: 50
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_92
+  rank: 20
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_93
+  rank: 67
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_94
+  rank: 134
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_95
+  rank: 145
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_96
+  rank: 199
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_97
+  rank: 64
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_98
+  rank: 197
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_99
+  rank: 182
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_100
+  rank: 61
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 5
+- name: professor_101
+  rank: 77
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_102
+  rank: 100
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_103
+  rank: 146
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_104
+  rank: 76
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+  - 4
+  - 5
+- name: professor_105
+  rank: 94
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_106
+  rank: 90
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_107
+  rank: 169
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_108
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_109
+  rank: 27
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 6
+- name: professor_110
+  rank: 74
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_111
+  rank: 46
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_112
+  rank: 61
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_113
+  rank: 90
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_114
+  rank: 97
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_115
+  rank: 172
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_116
+  rank: 163
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_117
+  rank: 23
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_118
+  rank: 132
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_119
+  rank: 137
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_120
+  rank: 72
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_121
+  rank: 116
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_122
+  rank: 136
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_123
+  rank: 92
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_124
+  rank: 93
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_125
+  rank: 154
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+- name: professor_126
+  rank: 58
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_127
+  rank: 56
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 6
+- name: professor_128
+  rank: 120
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_129
+  rank: 117
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_130
+  rank: 178
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_131
+  rank: 147
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_132
+  rank: 144
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_133
+  rank: 74
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_134
+  rank: 133
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_135
+  rank: 126
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_136
+  rank: 146
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_137
+  rank: 169
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_138
+  rank: 164
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_139
+  rank: 157
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_140
+  rank: 34
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_141
+  rank: 123
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+  - 5
+  - 6
+- name: professor_142
+  rank: 144
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_143
+  rank: 72
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_144
+  rank: 141
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_145
+  rank: 8
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_146
+  rank: 144
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_147
+  rank: 191
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_148
+  rank: 10
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_149
+  rank: 199
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_150
+  rank: 171
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_151
+  rank: 80
+  topics:
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_152
+  rank: 30
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_153
+  rank: 164
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_154
+  rank: 180
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_155
+  rank: 9
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_156
+  rank: 178
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_157
+  rank: 150
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_158
+  rank: 57
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 6
+- name: professor_159
+  rank: 192
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_160
+  rank: 59
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_161
+  rank: 42
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+  - 6
+- name: professor_162
+  rank: 85
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 5
+- name: professor_163
+  rank: 88
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_164
+  rank: 18
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_165
+  rank: 138
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+- name: professor_166
+  rank: 73
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_167
+  rank: 24
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_168
+  rank: 20
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_169
+  rank: 36
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_170
+  rank: 80
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+- name: professor_171
+  rank: 123
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_172
+  rank: 32
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_173
+  rank: 89
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 5
+- name: professor_174
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_175
+  rank: 84
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_176
+  rank: 70
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_177
+  rank: 139
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 5
+- name: professor_178
+  rank: 174
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_179
+  rank: 25
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_180
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 5
+  - 6
+- name: professor_181
+  rank: 103
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_182
+  rank: 58
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_183
+  rank: 75
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_184
+  rank: 47
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_185
+  rank: 51
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_186
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_187
+  rank: 99
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_188
+  rank: 102
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_189
+  rank: 91
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_190
+  rank: 113
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_191
+  rank: 130
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_192
+  rank: 33
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_193
+  rank: 70
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_194
+  rank: 182
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_195
+  rank: 16
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_196
+  rank: 128
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_197
+  rank: 65
+  topics:
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+  - 6
+- name: professor_198
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_199
+  rank: 84
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_200
+  rank: 31
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_201
+  rank: 53
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_202
+  rank: 191
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_203
+  rank: 151
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+  - 6
+- name: professor_204
+  rank: 102
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_205
+  rank: 0
+  topics:
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_206
+  rank: 23
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_207
+  rank: 23
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_208
+  rank: 188
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_209
+  rank: 165
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_210
+  rank: 76
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_211
+  rank: 50
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_212
+  rank: 135
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_213
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_214
+  rank: 162
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+- name: professor_215
+  rank: 135
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_216
+  rank: 162
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_217
+  rank: 117
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_218
+  rank: 74
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_219
+  rank: 196
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_220
+  rank: 119
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 5
+- name: professor_221
+  rank: 134
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_222
+  rank: 191
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_223
+  rank: 156
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_224
+  rank: 2
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_225
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_226
+  rank: 58
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_227
+  rank: 81
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_228
+  rank: 148
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_229
+  rank: 191
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+- name: professor_230
+  rank: 164
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_231
+  rank: 37
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_232
+  rank: 62
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_233
+  rank: 151
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_234
+  rank: 111
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_235
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_236
+  rank: 23
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_237
+  rank: 94
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_238
+  rank: 80
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_239
+  rank: 17
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_240
+  rank: 40
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_241
+  rank: 93
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_242
+  rank: 144
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_243
+  rank: 115
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_244
+  rank: 94
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_245
+  rank: 147
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_246
+  rank: 6
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_247
+  rank: 22
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_248
+  rank: 47
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_249
+  rank: 80
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_250
+  rank: 170
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_251
+  rank: 192
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_252
+  rank: 132
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_253
+  rank: 153
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_254
+  rank: 148
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_255
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_256
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_257
+  rank: 124
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_258
+  rank: 187
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_259
+  rank: 102
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_260
+  rank: 5
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_261
+  rank: 153
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+- name: professor_262
+  rank: 180
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_263
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_264
+  rank: 154
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_265
+  rank: 1
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 4
+  - 5
+- name: professor_266
+  rank: 140
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_267
+  rank: 62
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_268
+  rank: 90
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_269
+  rank: 113
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_270
+  rank: 151
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_271
+  rank: 95
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_272
+  rank: 154
+  topics:
+  - topic1
+  cannot_groups:
+  - 2
+- name: professor_273
+  rank: 79
+  topics:
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_274
+  rank: 25
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_275
+  rank: 136
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_276
+  rank: 188
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_277
+  rank: 116
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+- name: professor_278
+  rank: 115
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_279
+  rank: 34
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_280
+  rank: 101
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_281
+  rank: 46
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_282
+  rank: 105
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_283
+  rank: 89
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_284
+  rank: 61
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_285
+  rank: 147
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_286
+  rank: 48
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_287
+  rank: 182
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_288
+  rank: 145
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_289
+  rank: 155
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_290
+  rank: 29
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_291
+  rank: 107
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 6
+- name: professor_292
+  rank: 144
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_293
+  rank: 173
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_294
+  rank: 69
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_295
+  rank: 122
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_296
+  rank: 164
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_297
+  rank: 172
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_298
+  rank: 123
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_299
+  rank: 191
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_300
+  rank: 52
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_301
+  rank: 185
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_302
+  rank: 171
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_303
+  rank: 66
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_304
+  rank: 185
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_305
+  rank: 70
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_306
+  rank: 89
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 4
+- name: professor_307
+  rank: 167
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_308
+  rank: 175
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_309
+  rank: 190
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_310
+  rank: 33
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_311
+  rank: 130
+  topics: []
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_312
+  rank: 106
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_313
+  rank: 69
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_314
+  rank: 7
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_315
+  rank: 103
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_316
+  rank: 190
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_317
+  rank: 189
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_318
+  rank: 121
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_319
+  rank: 1
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_320
+  rank: 195
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_321
+  rank: 151
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 5
+- name: professor_322
+  rank: 140
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_323
+  rank: 144
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_324
+  rank: 132
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_325
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_326
+  rank: 149
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_327
+  rank: 70
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_328
+  rank: 159
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_329
+  rank: 122
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_330
+  rank: 137
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_331
+  rank: 32
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_332
+  rank: 45
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_333
+  rank: 16
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_334
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_335
+  rank: 28
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_336
+  rank: 130
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_337
+  rank: 187
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_338
+  rank: 175
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_339
+  rank: 82
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_340
+  rank: 86
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_341
+  rank: 25
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_342
+  rank: 106
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_343
+  rank: 106
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_344
+  rank: 155
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_345
+  rank: 56
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_346
+  rank: 102
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_347
+  rank: 36
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_348
+  rank: 57
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_349
+  rank: 59
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 6
+- name: professor_350
+  rank: 19
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+  - 6
+- name: professor_351
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_352
+  rank: 27
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_353
+  rank: 180
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 6
+- name: professor_354
+  rank: 191
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_355
+  rank: 195
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_356
+  rank: 199
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_357
+  rank: 107
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_358
+  rank: 181
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_359
+  rank: 85
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_360
+  rank: 119
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_361
+  rank: 52
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_362
+  rank: 26
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_363
+  rank: 190
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 2
+  - 4
+- name: professor_364
+  rank: 77
+  topics: []
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_365
+  rank: 61
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+- name: professor_366
+  rank: 34
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_367
+  rank: 92
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_368
+  rank: 59
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_369
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_370
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+- name: professor_371
+  rank: 17
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_372
+  rank: 33
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_373
+  rank: 121
+  topics:
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_374
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_375
+  rank: 36
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 5
+  - 6
+- name: professor_376
+  rank: 179
+  topics:
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_377
+  rank: 18
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_378
+  rank: 98
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_379
+  rank: 155
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_380
+  rank: 101
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_381
+  rank: 146
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_382
+  rank: 11
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_383
+  rank: 73
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_384
+  rank: 20
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_385
+  rank: 70
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_386
+  rank: 57
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_387
+  rank: 22
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_388
+  rank: 134
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_389
+  rank: 173
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_390
+  rank: 112
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_391
+  rank: 3
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_392
+  rank: 104
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_393
+  rank: 29
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_394
+  rank: 176
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_395
+  rank: 173
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_396
+  rank: 71
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_397
+  rank: 111
+  topics:
+  - topic1
+  cannot_groups:
+  - 6
+- name: professor_398
+  rank: 48
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_399
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_400
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_401
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_402
+  rank: 130
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_403
+  rank: 35
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_404
+  rank: 128
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_405
+  rank: 2
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 4
+  - 5
+- name: professor_406
+  rank: 36
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_407
+  rank: 41
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_408
+  rank: 151
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_409
+  rank: 76
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_410
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_411
+  rank: 198
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_412
+  rank: 21
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_413
+  rank: 68
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_414
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_415
+  rank: 50
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_416
+  rank: 96
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_417
+  rank: 66
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_418
+  rank: 109
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_419
+  rank: 127
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_420
+  rank: 5
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_421
+  rank: 167
+  topics: []
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_422
+  rank: 157
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_423
+  rank: 146
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_424
+  rank: 132
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_425
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_426
+  rank: 193
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_427
+  rank: 148
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_428
+  rank: 158
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_429
+  rank: 151
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_430
+  rank: 149
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_431
+  rank: 62
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_432
+  rank: 177
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_433
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_434
+  rank: 60
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_435
+  rank: 56
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_436
+  rank: 148
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_437
+  rank: 176
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_438
+  rank: 82
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_439
+  rank: 170
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_440
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 4
+- name: professor_441
+  rank: 30
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_442
+  rank: 94
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_443
+  rank: 156
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 5
+- name: professor_444
+  rank: 177
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_445
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_446
+  rank: 15
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_447
+  rank: 119
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_448
+  rank: 113
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_449
+  rank: 28
+  topics:
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_450
+  rank: 92
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_451
+  rank: 143
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_452
+  rank: 125
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_453
+  rank: 48
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_454
+  rank: 180
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_455
+  rank: 196
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_456
+  rank: 132
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_457
+  rank: 115
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_458
+  rank: 4
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 5
+  - 6
+- name: professor_459
+  rank: 154
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_460
+  rank: 77
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_461
+  rank: 47
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_462
+  rank: 95
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_463
+  rank: 129
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_464
+  rank: 187
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_465
+  rank: 97
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_466
+  rank: 171
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_467
+  rank: 130
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_468
+  rank: 28
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_469
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_470
+  rank: 43
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_471
+  rank: 180
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_472
+  rank: 195
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_473
+  rank: 50
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+- name: professor_474
+  rank: 44
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_475
+  rank: 76
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_476
+  rank: 33
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_477
+  rank: 144
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+- name: professor_478
+  rank: 188
+  topics:
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_479
+  rank: 38
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_480
+  rank: 193
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_481
+  rank: 176
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_482
+  rank: 154
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_483
+  rank: 188
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_484
+  rank: 159
+  topics:
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_485
+  rank: 61
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+- name: professor_486
+  rank: 6
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+  - 6
+- name: professor_487
+  rank: 118
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_488
+  rank: 77
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_489
+  rank: 141
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_490
+  rank: 79
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_491
+  rank: 81
+  topics:
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_492
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_493
+  rank: 25
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_494
+  rank: 124
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_495
+  rank: 11
+  topics: []
+  cannot_groups:
+  - 6
+- name: professor_496
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_497
+  rank: 175
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_498
+  rank: 52
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_499
+  rank: 184
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_500
+  rank: 72
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_501
+  rank: 184
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_502
+  rank: 59
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_503
+  rank: 33
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_504
+  rank: 155
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_505
+  rank: 163
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_506
+  rank: 54
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+  - 6
+- name: professor_507
+  rank: 80
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_508
+  rank: 181
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_509
+  rank: 81
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_510
+  rank: 15
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_511
+  rank: 158
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_512
+  rank: 57
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_513
+  rank: 62
+  topics:
+  - topic2
+  cannot_groups:
+  - 2
+- name: professor_514
+  rank: 92
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+- name: professor_515
+  rank: 184
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 6
+- name: professor_516
+  rank: 78
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_517
+  rank: 149
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_518
+  rank: 152
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_519
+  rank: 184
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_520
+  rank: 17
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_521
+  rank: 131
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_522
+  rank: 157
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_523
+  rank: 91
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_524
+  rank: 99
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_525
+  rank: 111
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_526
+  rank: 20
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_527
+  rank: 20
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_528
+  rank: 90
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_529
+  rank: 166
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_530
+  rank: 26
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_531
+  rank: 147
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_532
+  rank: 101
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_533
+  rank: 77
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_534
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_535
+  rank: 146
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_536
+  rank: 12
+  topics:
+  - topic1
+  cannot_groups:
+  - 5
+- name: professor_537
+  rank: 19
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_538
+  rank: 106
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_539
+  rank: 78
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_540
+  rank: 140
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_541
+  rank: 119
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_542
+  rank: 126
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_543
+  rank: 69
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_544
+  rank: 165
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_545
+  rank: 27
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_546
+  rank: 50
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_547
+  rank: 50
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_548
+  rank: 22
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_549
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_550
+  rank: 184
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_551
+  rank: 9
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_552
+  rank: 23
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_553
+  rank: 65
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+- name: professor_554
+  rank: 125
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_555
+  rank: 69
+  topics:
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_556
+  rank: 82
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_557
+  rank: 113
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_558
+  rank: 17
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_559
+  rank: 134
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_560
+  rank: 85
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_561
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_562
+  rank: 79
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_563
+  rank: 69
+  topics:
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 5
+  - 6
+- name: professor_564
+  rank: 102
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_565
+  rank: 36
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_566
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 5
+- name: professor_567
+  rank: 84
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_568
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_569
+  rank: 145
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 5
+- name: professor_570
+  rank: 39
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_571
+  rank: 86
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_572
+  rank: 118
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_573
+  rank: 153
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_574
+  rank: 159
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_575
+  rank: 22
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_576
+  rank: 159
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_577
+  rank: 125
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_578
+  rank: 157
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_579
+  rank: 56
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_580
+  rank: 84
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_581
+  rank: 141
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_582
+  rank: 190
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_583
+  rank: 29
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_584
+  rank: 46
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+  - 6
+- name: professor_585
+  rank: 159
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_586
+  rank: 88
+  topics: []
+  cannot_groups:
+  - 1
+  - 4
+  - 5
+- name: professor_587
+  rank: 43
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 5
+- name: professor_588
+  rank: 11
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_589
+  rank: 156
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_590
+  rank: 2
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_591
+  rank: 129
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_592
+  rank: 142
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_593
+  rank: 181
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_594
+  rank: 130
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_595
+  rank: 27
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_596
+  rank: 156
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_597
+  rank: 63
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_598
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_599
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_600
+  rank: 31
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 6
+- name: professor_601
+  rank: 124
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_602
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_603
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_604
+  rank: 85
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_605
+  rank: 41
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_606
+  rank: 92
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_607
+  rank: 42
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_608
+  rank: 100
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_609
+  rank: 135
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_610
+  rank: 60
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_611
+  rank: 39
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_612
+  rank: 18
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_613
+  rank: 8
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_614
+  rank: 64
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_615
+  rank: 47
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_616
+  rank: 35
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_617
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_618
+  rank: 113
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+- name: professor_619
+  rank: 170
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_620
+  rank: 58
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_621
+  rank: 0
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_622
+  rank: 125
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_623
+  rank: 172
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_624
+  rank: 186
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_625
+  rank: 7
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_626
+  rank: 163
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_627
+  rank: 93
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_628
+  rank: 20
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_629
+  rank: 118
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_630
+  rank: 157
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_631
+  rank: 56
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_632
+  rank: 199
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_633
+  rank: 20
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_634
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_635
+  rank: 125
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_636
+  rank: 99
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_637
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_638
+  rank: 172
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_639
+  rank: 150
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_640
+  rank: 195
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_641
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_642
+  rank: 15
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_643
+  rank: 54
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_644
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 4
+  - 5
+- name: professor_645
+  rank: 182
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_646
+  rank: 69
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_647
+  rank: 109
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_648
+  rank: 112
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 6
+- name: professor_649
+  rank: 135
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_650
+  rank: 198
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_651
+  rank: 157
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_652
+  rank: 198
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_653
+  rank: 135
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_654
+  rank: 100
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_655
+  rank: 170
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_656
+  rank: 33
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_657
+  rank: 31
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_658
+  rank: 126
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_659
+  rank: 125
+  topics:
+  - topic2
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_660
+  rank: 24
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_661
+  rank: 56
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+- name: professor_662
+  rank: 135
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 4
+  - 5
+- name: professor_663
+  rank: 105
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_664
+  rank: 181
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_665
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_666
+  rank: 151
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_667
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_668
+  rank: 119
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 5
+- name: professor_669
+  rank: 44
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 6
+- name: professor_670
+  rank: 186
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_671
+  rank: 36
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_672
+  rank: 136
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_673
+  rank: 93
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_674
+  rank: 138
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_675
+  rank: 189
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_676
+  rank: 98
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 6
+- name: professor_677
+  rank: 170
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+  - 6
+- name: professor_678
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_679
+  rank: 165
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_680
+  rank: 175
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_681
+  rank: 29
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_682
+  rank: 9
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_683
+  rank: 126
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_684
+  rank: 4
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+- name: professor_685
+  rank: 176
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_686
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_687
+  rank: 53
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_688
+  rank: 33
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_689
+  rank: 2
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_690
+  rank: 103
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_691
+  rank: 78
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_692
+  rank: 44
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_693
+  rank: 169
+  topics:
+  - topic2
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_694
+  rank: 42
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_695
+  rank: 92
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_696
+  rank: 118
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_697
+  rank: 136
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 3
+  - 5
+  - 6
+- name: professor_698
+  rank: 26
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_699
+  rank: 31
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_700
+  rank: 14
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_701
+  rank: 29
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_702
+  rank: 1
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_703
+  rank: 84
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_704
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_705
+  rank: 133
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_706
+  rank: 149
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_707
+  rank: 158
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_708
+  rank: 66
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_709
+  rank: 138
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_710
+  rank: 60
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_711
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+- name: professor_712
+  rank: 6
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_713
+  rank: 142
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_714
+  rank: 39
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_715
+  rank: 184
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 6
+- name: professor_716
+  rank: 42
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_717
+  rank: 44
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_718
+  rank: 197
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_719
+  rank: 154
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_720
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_721
+  rank: 162
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_722
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_723
+  rank: 163
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_724
+  rank: 95
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_725
+  rank: 113
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_726
+  rank: 1
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_727
+  rank: 22
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_728
+  rank: 181
+  topics: []
+  cannot_groups: []
+- name: professor_729
+  rank: 182
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_730
+  rank: 20
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_731
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_732
+  rank: 59
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_733
+  rank: 18
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_734
+  rank: 91
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_735
+  rank: 124
+  topics:
+  - topic2
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_736
+  rank: 144
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_737
+  rank: 141
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+  - 6
+- name: professor_738
+  rank: 8
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_739
+  rank: 76
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_740
+  rank: 28
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_741
+  rank: 172
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_742
+  rank: 37
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+- name: professor_743
+  rank: 94
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_744
+  rank: 91
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_745
+  rank: 56
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_746
+  rank: 165
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_747
+  rank: 4
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_748
+  rank: 159
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_749
+  rank: 106
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_750
+  rank: 169
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_751
+  rank: 189
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_752
+  rank: 155
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_753
+  rank: 54
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_754
+  rank: 140
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_755
+  rank: 34
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_756
+  rank: 148
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_757
+  rank: 192
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_758
+  rank: 55
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_759
+  rank: 132
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+- name: professor_760
+  rank: 43
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_761
+  rank: 123
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_762
+  rank: 164
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_763
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_764
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_765
+  rank: 6
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_766
+  rank: 195
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_767
+  rank: 53
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_768
+  rank: 47
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_769
+  rank: 2
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_770
+  rank: 21
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_771
+  rank: 7
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_772
+  rank: 125
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 5
+- name: professor_773
+  rank: 63
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_774
+  rank: 1
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_775
+  rank: 17
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_776
+  rank: 156
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_777
+  rank: 29
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_778
+  rank: 1
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_779
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_780
+  rank: 40
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_781
+  rank: 112
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_782
+  rank: 139
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_783
+  rank: 110
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_784
+  rank: 104
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_785
+  rank: 152
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_786
+  rank: 105
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_787
+  rank: 93
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_788
+  rank: 123
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_789
+  rank: 98
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 5
+- name: professor_790
+  rank: 32
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 5
+- name: professor_791
+  rank: 29
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_792
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_793
+  rank: 41
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_794
+  rank: 16
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_795
+  rank: 30
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+  - 6
+- name: professor_796
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_797
+  rank: 169
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_798
+  rank: 8
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_799
+  rank: 198
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_800
+  rank: 69
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_801
+  rank: 119
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_802
+  rank: 146
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_803
+  rank: 78
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_804
+  rank: 82
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_805
+  rank: 48
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+- name: professor_806
+  rank: 118
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_807
+  rank: 174
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_808
+  rank: 97
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 5
+- name: professor_809
+  rank: 70
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_810
+  rank: 78
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_811
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_812
+  rank: 59
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_813
+  rank: 156
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_814
+  rank: 107
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_815
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_816
+  rank: 199
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_817
+  rank: 11
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_818
+  rank: 73
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_819
+  rank: 12
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_820
+  rank: 69
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_821
+  rank: 112
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_822
+  rank: 150
+  topics: []
+  cannot_groups:
+  - 4
+- name: professor_823
+  rank: 87
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_824
+  rank: 105
+  topics:
+  - topic2
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_825
+  rank: 164
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_826
+  rank: 0
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_827
+  rank: 60
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_828
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_829
+  rank: 165
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_830
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_831
+  rank: 122
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_832
+  rank: 44
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_833
+  rank: 146
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_834
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_835
+  rank: 115
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_836
+  rank: 37
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_837
+  rank: 50
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_838
+  rank: 125
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_839
+  rank: 60
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_840
+  rank: 177
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_841
+  rank: 145
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_842
+  rank: 149
+  topics: []
+  cannot_groups:
+  - 1
+- name: professor_843
+  rank: 139
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_844
+  rank: 86
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_845
+  rank: 7
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_846
+  rank: 45
+  topics:
+  - topic1
+  cannot_groups:
+  - 6
+- name: professor_847
+  rank: 47
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_848
+  rank: 34
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_849
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_850
+  rank: 178
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_851
+  rank: 45
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_852
+  rank: 87
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_853
+  rank: 106
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_854
+  rank: 8
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_855
+  rank: 192
+  topics:
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_856
+  rank: 59
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_857
+  rank: 32
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_858
+  rank: 53
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_859
+  rank: 99
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_860
+  rank: 48
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_861
+  rank: 141
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_862
+  rank: 78
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_863
+  rank: 158
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_864
+  rank: 75
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_865
+  rank: 68
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_866
+  rank: 44
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_867
+  rank: 81
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_868
+  rank: 129
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_869
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_870
+  rank: 87
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_871
+  rank: 165
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_872
+  rank: 30
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_873
+  rank: 10
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_874
+  rank: 6
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_875
+  rank: 52
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_876
+  rank: 22
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_877
+  rank: 127
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_878
+  rank: 7
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_879
+  rank: 145
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_880
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_881
+  rank: 149
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_882
+  rank: 14
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 3
+  - 6
+- name: professor_883
+  rank: 53
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_884
+  rank: 37
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_885
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_886
+  rank: 99
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_887
+  rank: 39
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_888
+  rank: 61
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_889
+  rank: 40
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_890
+  rank: 135
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 6
+- name: professor_891
+  rank: 161
+  topics:
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_892
+  rank: 195
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_893
+  rank: 7
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_894
+  rank: 155
+  topics: []
+  cannot_groups:
+  - 6
+- name: professor_895
+  rank: 5
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_896
+  rank: 113
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_897
+  rank: 9
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_898
+  rank: 180
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_899
+  rank: 158
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_900
+  rank: 140
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_901
+  rank: 184
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_902
+  rank: 14
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_903
+  rank: 1
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_904
+  rank: 62
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 4
+  - 6
+- name: professor_905
+  rank: 12
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_906
+  rank: 121
+  topics:
+  - topic2
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_907
+  rank: 65
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_908
+  rank: 62
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_909
+  rank: 117
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_910
+  rank: 152
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_911
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_912
+  rank: 87
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_913
+  rank: 46
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_914
+  rank: 79
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_915
+  rank: 70
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_916
+  rank: 116
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_917
+  rank: 12
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_918
+  rank: 137
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_919
+  rank: 138
+  topics:
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_920
+  rank: 15
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 3
+  - 5
+  - 6
+- name: professor_921
+  rank: 130
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_922
+  rank: 50
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_923
+  rank: 164
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_924
+  rank: 181
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_925
+  rank: 16
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_926
+  rank: 154
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_927
+  rank: 29
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_928
+  rank: 47
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_929
+  rank: 150
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_930
+  rank: 77
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_931
+  rank: 36
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_932
+  rank: 35
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_933
+  rank: 13
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_934
+  rank: 101
+  topics:
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_935
+  rank: 97
+  topics:
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_936
+  rank: 173
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_937
+  rank: 80
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_938
+  rank: 185
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_939
+  rank: 149
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_940
+  rank: 128
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_941
+  rank: 139
+  topics:
+  - topic1
+  cannot_groups:
+  - 5
+- name: professor_942
+  rank: 168
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_943
+  rank: 155
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_944
+  rank: 72
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_945
+  rank: 89
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_946
+  rank: 95
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_947
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_948
+  rank: 13
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_949
+  rank: 97
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_950
+  rank: 23
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 6
+- name: professor_951
+  rank: 5
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_952
+  rank: 173
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_953
+  rank: 91
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_954
+  rank: 50
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_955
+  rank: 125
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_956
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_957
+  rank: 5
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_958
+  rank: 45
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_959
+  rank: 5
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_960
+  rank: 43
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_961
+  rank: 39
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_962
+  rank: 20
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_963
+  rank: 182
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 5
+- name: professor_964
+  rank: 4
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_965
+  rank: 183
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_966
+  rank: 191
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_967
+  rank: 143
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_968
+  rank: 0
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_969
+  rank: 58
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_970
+  rank: 107
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_971
+  rank: 17
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_972
+  rank: 191
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_973
+  rank: 141
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_974
+  rank: 102
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_975
+  rank: 113
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_976
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_977
+  rank: 84
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_978
+  rank: 117
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_979
+  rank: 105
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_980
+  rank: 84
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_981
+  rank: 105
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_982
+  rank: 126
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_983
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_984
+  rank: 118
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_985
+  rank: 141
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_986
+  rank: 1
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_987
+  rank: 173
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_988
+  rank: 174
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_989
+  rank: 32
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_990
+  rank: 4
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+  - 6
+- name: professor_991
+  rank: 41
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_992
+  rank: 102
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_993
+  rank: 193
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_994
+  rank: 161
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_995
+  rank: 160
+  topics:
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_996
+  rank: 32
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_997
+  rank: 31
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_998
+  rank: 133
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_999
+  rank: 29
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 6
+- name: professor_1000
+  rank: 8
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1001
+  rank: 98
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1002
+  rank: 142
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1003
+  rank: 5
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_1004
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1005
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1006
+  rank: 8
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1007
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1008
+  rank: 21
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1009
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1010
+  rank: 95
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_1011
+  rank: 158
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1012
+  rank: 33
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1013
+  rank: 196
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1014
+  rank: 68
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1015
+  rank: 88
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1016
+  rank: 22
+  topics:
+  - topic1
+  cannot_groups:
+  - 5
+- name: professor_1017
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1018
+  rank: 61
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1019
+  rank: 0
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1020
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1021
+  rank: 121
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1022
+  rank: 45
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1023
+  rank: 101
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+  - 5
+- name: professor_1024
+  rank: 147
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1025
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1026
+  rank: 180
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_1027
+  rank: 157
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1028
+  rank: 72
+  topics:
+  - topic1
+  cannot_groups:
+  - 2
+- name: professor_1029
+  rank: 70
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1030
+  rank: 83
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1031
+  rank: 88
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1032
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_1033
+  rank: 148
+  topics:
+  - topic1
+  cannot_groups:
+  - 2
+- name: professor_1034
+  rank: 5
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1035
+  rank: 114
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1036
+  rank: 65
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+  - 6
+- name: professor_1037
+  rank: 4
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1038
+  rank: 114
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_1039
+  rank: 53
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1040
+  rank: 132
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1041
+  rank: 136
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1042
+  rank: 21
+  topics:
+  - topic1
+  cannot_groups:
+  - 6
+- name: professor_1043
+  rank: 80
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1044
+  rank: 81
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_1045
+  rank: 10
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1046
+  rank: 113
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1047
+  rank: 99
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1048
+  rank: 160
+  topics: []
+  cannot_groups:
+  - 2
+- name: professor_1049
+  rank: 117
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1050
+  rank: 5
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1051
+  rank: 94
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1052
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1053
+  rank: 139
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1054
+  rank: 126
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1055
+  rank: 123
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1056
+  rank: 50
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1057
+  rank: 57
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+- name: professor_1058
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1059
+  rank: 26
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1060
+  rank: 76
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1061
+  rank: 20
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_1062
+  rank: 74
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1063
+  rank: 115
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 6
+- name: professor_1064
+  rank: 95
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+  - 5
+- name: professor_1065
+  rank: 136
+  topics: []
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_1066
+  rank: 132
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1067
+  rank: 113
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1068
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1069
+  rank: 113
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1070
+  rank: 36
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1071
+  rank: 6
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1072
+  rank: 76
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1073
+  rank: 104
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1074
+  rank: 133
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1075
+  rank: 102
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_1076
+  rank: 74
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1077
+  rank: 99
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1078
+  rank: 82
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1079
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1080
+  rank: 144
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1081
+  rank: 159
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1082
+  rank: 36
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1083
+  rank: 22
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1084
+  rank: 154
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1085
+  rank: 143
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1086
+  rank: 170
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1087
+  rank: 25
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1088
+  rank: 186
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1089
+  rank: 60
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1090
+  rank: 2
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1091
+  rank: 57
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1092
+  rank: 26
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_1093
+  rank: 25
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1094
+  rank: 13
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1095
+  rank: 142
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1096
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1097
+  rank: 7
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1098
+  rank: 119
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1099
+  rank: 15
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1100
+  rank: 88
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1101
+  rank: 59
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_1102
+  rank: 150
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1103
+  rank: 72
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_1104
+  rank: 51
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_1105
+  rank: 160
+  topics:
+  - topic2
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1106
+  rank: 181
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1107
+  rank: 176
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1108
+  rank: 85
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_1109
+  rank: 198
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1110
+  rank: 183
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_1111
+  rank: 38
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1112
+  rank: 49
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1113
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1114
+  rank: 134
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+- name: professor_1115
+  rank: 56
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_1116
+  rank: 190
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_1117
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1118
+  rank: 143
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1119
+  rank: 144
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1120
+  rank: 94
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1121
+  rank: 137
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1122
+  rank: 52
+  topics: []
+  cannot_groups:
+  - 4
+- name: professor_1123
+  rank: 103
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1124
+  rank: 97
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1125
+  rank: 94
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1126
+  rank: 189
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1127
+  rank: 131
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_1128
+  rank: 90
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_1129
+  rank: 131
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1130
+  rank: 100
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1131
+  rank: 107
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1132
+  rank: 50
+  topics:
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1133
+  rank: 157
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_1134
+  rank: 40
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1135
+  rank: 174
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1136
+  rank: 0
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+- name: professor_1137
+  rank: 102
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_1138
+  rank: 31
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_1139
+  rank: 135
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1140
+  rank: 72
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_1141
+  rank: 91
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1142
+  rank: 15
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1143
+  rank: 155
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1144
+  rank: 196
+  topics:
+  - topic1
+  cannot_groups:
+  - 4
+- name: professor_1145
+  rank: 197
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1146
+  rank: 123
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_1147
+  rank: 109
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_1148
+  rank: 47
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+- name: professor_1149
+  rank: 193
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1150
+  rank: 50
+  topics:
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_1151
+  rank: 25
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1152
+  rank: 13
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_1153
+  rank: 82
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_1154
+  rank: 86
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_1155
+  rank: 169
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1156
+  rank: 158
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1157
+  rank: 199
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_1158
+  rank: 18
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1159
+  rank: 154
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1160
+  rank: 136
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_1161
+  rank: 53
+  topics:
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1162
+  rank: 15
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_1163
+  rank: 162
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1164
+  rank: 13
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1165
+  rank: 31
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1166
+  rank: 15
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+- name: professor_1167
+  rank: 0
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1168
+  rank: 27
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 5
+- name: professor_1169
+  rank: 133
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1170
+  rank: 133
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_1171
+  rank: 48
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 5
+- name: professor_1172
+  rank: 30
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1173
+  rank: 67
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1174
+  rank: 129
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1175
+  rank: 134
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_1176
+  rank: 46
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1177
+  rank: 53
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1178
+  rank: 81
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_1179
+  rank: 2
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1180
+  rank: 12
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1181
+  rank: 6
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1182
+  rank: 148
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 5
+- name: professor_1183
+  rank: 131
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1184
+  rank: 24
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1185
+  rank: 7
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1186
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+- name: professor_1187
+  rank: 190
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1188
+  rank: 146
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1189
+  rank: 93
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1190
+  rank: 41
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1191
+  rank: 170
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1192
+  rank: 1
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_1193
+  rank: 64
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1194
+  rank: 77
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1195
+  rank: 129
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1196
+  rank: 20
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1197
+  rank: 47
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1198
+  rank: 152
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1199
+  rank: 142
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1200
+  rank: 165
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_1201
+  rank: 160
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1202
+  rank: 164
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1203
+  rank: 34
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1204
+  rank: 82
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1205
+  rank: 9
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1206
+  rank: 24
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1207
+  rank: 164
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1208
+  rank: 53
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1209
+  rank: 51
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1210
+  rank: 25
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 4
+- name: professor_1211
+  rank: 40
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1212
+  rank: 105
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1213
+  rank: 10
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1214
+  rank: 17
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_1215
+  rank: 191
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_1216
+  rank: 55
+  topics:
+  - topic2
+  cannot_groups:
+  - 2
+  - 3
+  - 6
+- name: professor_1217
+  rank: 79
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1218
+  rank: 98
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_1219
+  rank: 8
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_1220
+  rank: 146
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_1221
+  rank: 51
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1222
+  rank: 123
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1223
+  rank: 19
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1224
+  rank: 141
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 6
+- name: professor_1225
+  rank: 14
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1226
+  rank: 189
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1227
+  rank: 112
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1228
+  rank: 195
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1229
+  rank: 118
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1230
+  rank: 189
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_1231
+  rank: 167
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1232
+  rank: 59
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1233
+  rank: 124
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1234
+  rank: 185
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1235
+  rank: 149
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1236
+  rank: 134
+  topics:
+  - topic2
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_1237
+  rank: 38
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1238
+  rank: 135
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_1239
+  rank: 180
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+- name: professor_1240
+  rank: 116
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1241
+  rank: 198
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1242
+  rank: 161
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1243
+  rank: 136
+  topics: []
+  cannot_groups:
+  - 1
+- name: professor_1244
+  rank: 130
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1245
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1246
+  rank: 72
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1247
+  rank: 21
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_1248
+  rank: 5
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1249
+  rank: 181
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 6
+- name: professor_1250
+  rank: 1
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1251
+  rank: 67
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_1252
+  rank: 52
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1253
+  rank: 144
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_1254
+  rank: 74
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1255
+  rank: 63
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_1256
+  rank: 70
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1257
+  rank: 49
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1258
+  rank: 120
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_1259
+  rank: 99
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1260
+  rank: 167
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_1261
+  rank: 33
+  topics:
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_1262
+  rank: 13
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1263
+  rank: 169
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1264
+  rank: 179
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1265
+  rank: 0
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_1266
+  rank: 99
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_1267
+  rank: 102
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1268
+  rank: 113
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1269
+  rank: 17
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1270
+  rank: 183
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+  - 3
+  - 6
+- name: professor_1271
+  rank: 12
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 2
+  - 4
+- name: professor_1272
+  rank: 164
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1273
+  rank: 198
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1274
+  rank: 125
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1275
+  rank: 19
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1276
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+- name: professor_1277
+  rank: 118
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1278
+  rank: 89
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_1279
+  rank: 33
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1280
+  rank: 95
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1281
+  rank: 128
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1282
+  rank: 160
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1283
+  rank: 131
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1284
+  rank: 171
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 5
+- name: professor_1285
+  rank: 145
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1286
+  rank: 87
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1287
+  rank: 124
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_1288
+  rank: 166
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1289
+  rank: 139
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1290
+  rank: 152
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1291
+  rank: 36
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+- name: professor_1292
+  rank: 91
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1293
+  rank: 35
+  topics: []
+  cannot_groups: []
+- name: professor_1294
+  rank: 133
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1295
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_1296
+  rank: 70
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1297
+  rank: 22
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1298
+  rank: 52
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1299
+  rank: 108
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1300
+  rank: 47
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1301
+  rank: 160
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1302
+  rank: 139
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 5
+  - 6
+- name: professor_1303
+  rank: 155
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1304
+  rank: 176
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1305
+  rank: 196
+  topics:
+  - topic1
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1306
+  rank: 77
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1307
+  rank: 124
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_1308
+  rank: 66
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1309
+  rank: 56
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1310
+  rank: 149
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_1311
+  rank: 129
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_1312
+  rank: 20
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+  - 5
+  - 6
+- name: professor_1313
+  rank: 13
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 3
+- name: professor_1314
+  rank: 135
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 6
+- name: professor_1315
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+  - 6
+- name: professor_1316
+  rank: 11
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1317
+  rank: 85
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_1318
+  rank: 105
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1319
+  rank: 153
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1320
+  rank: 73
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1321
+  rank: 187
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 4
+- name: professor_1322
+  rank: 123
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_1323
+  rank: 22
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+- name: professor_1324
+  rank: 19
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1325
+  rank: 185
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 6
+- name: professor_1326
+  rank: 119
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1327
+  rank: 16
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1328
+  rank: 93
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1329
+  rank: 23
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1330
+  rank: 111
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1331
+  rank: 58
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_1332
+  rank: 165
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1333
+  rank: 37
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1334
+  rank: 23
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_1335
+  rank: 86
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 4
+  - 5
+- name: professor_1336
+  rank: 79
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1337
+  rank: 199
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_1338
+  rank: 13
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1339
+  rank: 175
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1340
+  rank: 36
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1341
+  rank: 152
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1342
+  rank: 65
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1343
+  rank: 122
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_1344
+  rank: 104
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1345
+  rank: 104
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 4
+  - 5
+- name: professor_1346
+  rank: 151
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1347
+  rank: 139
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_1348
+  rank: 51
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1349
+  rank: 32
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1350
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1351
+  rank: 58
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1352
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1353
+  rank: 110
+  topics:
+  - topic1
+  cannot_groups:
+  - 2
+- name: professor_1354
+  rank: 103
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_1355
+  rank: 4
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1356
+  rank: 153
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1357
+  rank: 22
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_1358
+  rank: 98
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1359
+  rank: 193
+  topics:
+  - topic1
+  cannot_groups:
+  - 1
+  - 3
+  - 4
+- name: professor_1360
+  rank: 65
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 6
+- name: professor_1361
+  rank: 139
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1362
+  rank: 36
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1363
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1364
+  rank: 142
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1365
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 6
+- name: professor_1366
+  rank: 137
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1367
+  rank: 156
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1368
+  rank: 148
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1369
+  rank: 21
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1370
+  rank: 13
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1371
+  rank: 64
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_1372
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1373
+  rank: 62
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_1374
+  rank: 172
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1375
+  rank: 146
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1376
+  rank: 106
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1377
+  rank: 57
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_1378
+  rank: 77
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1379
+  rank: 106
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1380
+  rank: 159
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 6
+- name: professor_1381
+  rank: 30
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1382
+  rank: 124
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1383
+  rank: 199
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1384
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1385
+  rank: 25
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_1386
+  rank: 102
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1387
+  rank: 17
+  topics:
+  - topic2
+  cannot_groups:
+  - 2
+  - 3
+  - 4
+- name: professor_1388
+  rank: 158
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1389
+  rank: 176
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1390
+  rank: 29
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1391
+  rank: 184
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1392
+  rank: 116
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1393
+  rank: 12
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1394
+  rank: 96
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1395
+  rank: 37
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 5
+  - 6
+- name: professor_1396
+  rank: 166
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_1397
+  rank: 119
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_1398
+  rank: 161
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1399
+  rank: 38
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1400
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1401
+  rank: 76
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+  - 6
+- name: professor_1402
+  rank: 127
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1403
+  rank: 66
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1404
+  rank: 74
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 5
+  - 6
+- name: professor_1405
+  rank: 199
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 3
+- name: professor_1406
+  rank: 3
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1407
+  rank: 106
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1408
+  rank: 11
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1409
+  rank: 149
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1410
+  rank: 76
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1411
+  rank: 29
+  topics:
+  - topic1
+  - topic3
+  cannot_groups: []
+- name: professor_1412
+  rank: 133
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1413
+  rank: 163
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1414
+  rank: 162
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1415
+  rank: 134
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1416
+  rank: 52
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_1417
+  rank: 5
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1418
+  rank: 28
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1419
+  rank: 24
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1420
+  rank: 12
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1421
+  rank: 78
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_1422
+  rank: 13
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 3
+  - 6
+- name: professor_1423
+  rank: 96
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1424
+  rank: 78
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1425
+  rank: 39
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_1426
+  rank: 171
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1427
+  rank: 142
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1428
+  rank: 5
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+  - 6
+- name: professor_1429
+  rank: 8
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1430
+  rank: 23
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1431
+  rank: 32
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1432
+  rank: 85
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1433
+  rank: 119
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1434
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 5
+- name: professor_1435
+  rank: 167
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+  - 6
+- name: professor_1436
+  rank: 152
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1437
+  rank: 48
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1438
+  rank: 46
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1439
+  rank: 88
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1440
+  rank: 183
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1441
+  rank: 43
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_1442
+  rank: 112
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1443
+  rank: 5
+  topics:
+  - topic2
+  cannot_groups: []
+- name: professor_1444
+  rank: 139
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1445
+  rank: 71
+  topics:
+  - topic2
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_1446
+  rank: 141
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1447
+  rank: 137
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+  - 6
+- name: professor_1448
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1449
+  rank: 109
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+  - 5
+- name: professor_1450
+  rank: 169
+  topics:
+  - topic2
+  cannot_groups:
+  - 4
+- name: professor_1451
+  rank: 74
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+- name: professor_1452
+  rank: 11
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+  - 5
+- name: professor_1453
+  rank: 46
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1454
+  rank: 15
+  topics:
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1455
+  rank: 31
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1456
+  rank: 63
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1457
+  rank: 159
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 6
+- name: professor_1458
+  rank: 152
+  topics:
+  - topic3
+  cannot_groups: []
+- name: professor_1459
+  rank: 88
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1460
+  rank: 127
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1461
+  rank: 164
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_1462
+  rank: 113
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 1
+  - 4
+- name: professor_1463
+  rank: 145
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1464
+  rank: 143
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1465
+  rank: 21
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1466
+  rank: 26
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+  - 5
+- name: professor_1467
+  rank: 32
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1468
+  rank: 67
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 3
+- name: professor_1469
+  rank: 8
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1470
+  rank: 155
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1471
+  rank: 42
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1472
+  rank: 140
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+  - 2
+  - 4
+- name: professor_1473
+  rank: 111
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 4
+- name: professor_1474
+  rank: 106
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1475
+  rank: 183
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_1476
+  rank: 112
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1477
+  rank: 149
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 3
+  - 5
+- name: professor_1478
+  rank: 85
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_1479
+  rank: 182
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 6
+- name: professor_1480
+  rank: 103
+  topics:
+  - topic3
+  cannot_groups:
+  - 4
+- name: professor_1481
+  rank: 25
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+  - 6
+- name: professor_1482
+  rank: 39
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1483
+  rank: 118
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1484
+  rank: 174
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_1485
+  rank: 134
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1486
+  rank: 61
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_1487
+  rank: 101
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 3
+- name: professor_1488
+  rank: 7
+  topics:
+  - topic1
+  cannot_groups: []
+- name: professor_1489
+  rank: 37
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 4
+  - 6
+- name: professor_1490
+  rank: 172
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+  - 5
+- name: professor_1491
+  rank: 13
+  topics:
+  - topic2
+  - topic3
+  cannot_groups:
+  - 5
+- name: professor_1492
+  rank: 184
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_1493
+  rank: 194
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_1494
+  rank: 107
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+  - 2
+- name: professor_1495
+  rank: 17
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 6
+- name: professor_1496
+  rank: 49
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1497
+  rank: 33
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1498
+  rank: 22
+  topics:
+  - topic1
+  cannot_groups:
+  - 3
+  - 6
+- name: professor_1499
+  rank: 60
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []

@@ -1,0 +1,155 @@
+---
+n_threads: 4
+mutate_pct: 30
+print_threshold: 0.99
+revert_threshold: 0.7
+rank_k: 1.0
+penalty_k: 1.0
+length_penalties:
+- 0
+- 0
+- 0
+- 5
+- 20
+- 80
+- 250
+- 1000
+window_penalties:
+- 0
+- 5
+- 25
+- 125
+- 625
+- 3000
+students:
+- name: student_0_0
+  topics:
+  - topic3
+  group: 0
+  director: professor_3
+- name: student_0_1
+  topics:
+  - topic2
+  group: 0
+  director: professor_4
+- name: student_0_2
+  topics:
+  - topic1
+  group: 0
+  director: professor_2
+- name: student_1_0
+  topics:
+  - topic1
+  group: 1
+  director: professor_13
+- name: student_1_1
+  topics: []
+  group: 1
+  director: professor_4
+- name: student_1_2
+  topics:
+  - topic1
+  group: 1
+  director: professor_14
+professors:
+- name: professor_0
+  rank: 69
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_1
+  rank: 176
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_2
+  rank: 77
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_3
+  rank: 109
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_4
+  rank: 90
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_5
+  rank: 12
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_6
+  rank: 77
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_7
+  rank: 139
+  topics:
+  - topic1
+  - topic2
+  cannot_groups: []
+- name: professor_8
+  rank: 9
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_9
+  rank: 179
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups:
+  - 1
+- name: professor_10
+  rank: 166
+  topics:
+  - topic2
+  - topic3
+  cannot_groups: []
+- name: professor_11
+  rank: 3
+  topics:
+  - topic1
+  - topic3
+  cannot_groups:
+  - 2
+- name: professor_12
+  rank: 120
+  topics:
+  - topic1
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_13
+  rank: 195
+  topics:
+  - topic2
+  cannot_groups:
+  - 1
+- name: professor_14
+  rank: 28
+  topics:
+  - topic1
+  - topic2
+  - topic3
+  cannot_groups: []
