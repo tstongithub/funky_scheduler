@@ -7,25 +7,30 @@ constexpr size_t MAX_GROUPS = 7;
 struct student_t
 {
   string name;
-  vector<string> topics;
   string director;
-  vector<size_t> groups;
+  size_t group;
+  vector<string> topics;
 };
 
 struct professor_t
 {
   string name;
-  vector<string> topics;
-  float rank;
+  double rank;
   vector<size_t> cannot_groups;
+  vector<string> topics;
 };
 
 struct input_t
 {
-  float rank_k;
-  float penalty_k;
-  vector<float> length_penalties;
-  vector<float> window_penalties;
+  size_t n_threads;
+  size_t mutate_pct;
+  double print_threshold;
+  double revert_threshold;
+
+  double rank_k;
+  double penalty_k;
+  vector<double> length_penalties;
+  vector<double> window_penalties;
 
   vector<student_t> students;
   vector<professor_t> professors;

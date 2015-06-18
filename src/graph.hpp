@@ -12,7 +12,7 @@ struct graph_t
   vector<vector<size_t>> p_t;
   vector<vector<size_t>> t_p;
 
-  vector<float> penalty;
+  vector<double> penalty;
 };
 
 graph_t parse(const input_t&);

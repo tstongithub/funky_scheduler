@@ -7,8 +7,7 @@ graph_t parse(const input_t& in)
   graph_t g;
 
   for (const auto& st : in.students)
-    g.n_groups = max(g.n_groups, 1 + *max_element(st.groups.begin(),
-                                                  st.groups.end()));
+    g.n_groups = max(g.n_groups, 1 + st.group);
 
   LOG(info) << g.n_groups << " groups";
 
@@ -26,6 +25,7 @@ graph_t parse(const input_t& in)
       for (const auto& st : in.students) {
         bool can =
           st.director != pr.name &&
+          st.group == gi &&
           std::includes(pr.topics.begin(), pr.topics.end(),
                         st.topics.begin(), st.topics.end()) &&
           !std::binary_search(pr.cannot_groups.begin(),
@@ -69,8 +69,8 @@ graph_t parse(const input_t& in)
     while (!mask[last]) --last;
 
     const size_t length = last - first + 1;
-    const float length_penalty = in.length_penalties[length];
-    const float window_penalty = in.window_penalties[length - mask.count()];
+    const double length_penalty = in.length_penalties[length];
+    const double window_penalty = in.window_penalties[length - mask.count()];
 
     g.penalty[m] = in.penalty_k * (length_penalty + window_penalty);
 

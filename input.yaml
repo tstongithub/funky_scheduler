@@ -1,42 +1,49 @@
+n_threads: 3
+mutate_pct: 30
+print_threshold: 0.9
+revert_threshold: 0.7
+
 rank_k: 1.0
 penalty_k: 1.0
+
 length_penalties: [0, 0, 0, 5, 20, 80, 250, 1000]
 window_penalties: [0, 5, 25, 125, 625, 3000]
+
 students:
-  - name: Антон
+  - name: Аэродактиль
     topics: ["матан"]
-    groups: [0]
+    group: 0
     director: Адольф
-  - name: Боря
+  - name: Бульбазавр
     topics: ["матан", "ГА"]
-    groups: [0, 1]
-    director: Вальдемар
-  - name: Вова
+    group: 0
+    director: Валефар
+  - name: Видл
     topics: []
-    groups: [1]
-    director: Ефим
+    group: 1
+    director: Елизаздра
 professors:
   - name: Адольф
     topics: ["матан", "ГА"]
-    rank: 100
+    rank: 666
     cannot_groups: []
-  - name: Борис
+  - name: Бельфегор
     topics: ["матан"]
     rank: 40
     cannot_groups: [1]
-  - name: Вальдемар
+  - name: Валефар
     topics: ["матан", "ГА"]
     rank: 35
     cannot_groups: []
-  - name: Глеб
+  - name: Гасион
     topics: ["матан", "ГА"]
     rank: 30
     cannot_groups: [0]
-  - name: Давид
+  - name: Декарабиа
     topics: ["матан"]
     rank: 25
     cannot_groups: []
-  - name: Ефим
+  - name: Елизаздра
     topics: ["матан", "ГА"]
     rank: 20
     cannot_groups: [1]
